@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- Include the above in your HEAD tag ---------->
+<html>
+
+<head>
+  <title> Formulir Pendaftaran B</title>
+</head>
+
+<body>
+  <form class="form-horizontal">
+    <fieldset>
+
+      <!--Biodata Ayah  ------------------------------------------------>
+      <legend>B. IDENTITAS ORANGTUA KANDUNG / WALI</legend>
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="namaayah">Nama Ayah</label>
+        <div class="col-md-6">
+          <input id="namaayah" name="namaayah" placeholder="Nama Ayah" class="form-control input-md" required=""  type="text">
+        </div>
+      </div>
+
+      <!-- Tanggal Lahir Ayah -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="tempatlahir">Tempat, Tanggal Lahir</label>
+        <div class="col-md-6">
+          <input id="tempatlahir" name="tempatlahir" placeholder="Tempat, Tanggal Lahir" class="form-control input-md" required="" type="text">
+        </div>
+      </div>
+
+      <!--Nomor NIK-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="nomornik">Nomor NIK</label>
+        <div class="col-md-6">
+          <input id="nomornik" name="nomornik" placeholder="Nomor NIK" class="form-control input-md" required="" type="text">
+        </div>
+      </div>
+
+      <!--Agama-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="agama">Agama</label>
+        <div class="col-md-2">
+          <select id="agama" name="agama" class="form-control">
+            <option value="0">-- Pilih Agama --</option>
+            <option value="1">Islam</option>
+            <option value="2">Katolik</option>
+            <option value="3">Protestan</option>
+            <option value="4">Buddha</option>
+            <option value="5">Hindu</option>
+          </select>
+        </div>
+      </div>
+
+      <!--Pendidikan Terakhir-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="pendidikan">Pendidikan Terakhir</label>
+        <div class="col-md-6">
+          <input id="pendidikan" name="pendidikan" placeholder="Pendidikan Terakhir" class="form-control input-md" required="" type="text">
+        </div>
+      </div>
+
+      <!--Pekerjaan-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="pekerjaan">Pekerjaan</label>
+        <div class="col-md-6">
+          <input id="pekerjaan" name="pekerjaan" placeholder="Pekerjaan" class="form-control input-md" required="" type="text">
+        </div>
+      </div>
+
+      <!--Jumlah Penghasilan-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="penghasilan">Jumlah Penghasilan</label>
+        <div class="col-md-2">
+          <select id="Penghasilan" name="Penghasilan" class="form-control">
+            <option value="0">-- Pilihan --</option>
+            <option value="1">Dibawah Rp1 juta</option>
+            <option value="2">Rp1 juta - Rp2 juta</option>
+            <option value="3">Rp2 juta - Rp5 juta</option>
+            <option value="4">Diatas Rp5 juta</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Alamat Ayah -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="alamat">Alamat</label>
+        <div class="col-md-6">
+          <input id="alamat2" name="alamat2" placeholder="" class="form-control input-md" type="text">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="prependedtext"></label>
+        <div class="col-md-2">
+          <div class="input-group">
+            <span class="input-group-addon">RT</span>
+            <input id="prependedtext" name="prependedtext" class="form-control" placeholder="00" type="text">
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="input-group">
+            <span class="input-group-addon">RW</span>
+            <input id="prependedtext" name="prependedtext" class="form-control" placeholder="00" type="text">
+          </div>
+        </div>
+      </div>
+
+      <!-- Kelurahan -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for=""></label>
+        <div class="col-md-6">
+          Kelurahan
+          <input id="" name="" placeholder="" class="form-control input-md" type="text">
+        </div>
+      </div>
+
+      <!-- Kecamatan -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for=""></label>
+        <div class="col-md-6">
+          Kecamatan
+          <input id="" name="" placeholder="" class="form-control input-md" type="text">
+        </div>
+      </div>
+
+      <!-- Kabupaten -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for=""></label>
+        <div class="col-md-6">
+          Kabupaten/Kota
+          <input id="" name="" placeholder="" class="form-control input-md" type="text">
+        </div>
+      </div>
+
+      <!-- Provinsi -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for=""></label>
+        <div class="col-md-2">
+          Provinsi
+          <input id="" name="" placeholder="" class="form-control input-md" type="text">
+        </div>
+        <div class="col-md-2">
+          Kode Pos
+          <input id="" name="" placeholder="" class="form-control input-md" type="text">
+        </div>
+      </div>
+      <!--Batas Biodata Ayah ------------------------>
+
+      <legend></legend>
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="namaibu">Nama Ibu</label>
+        <div class="col-md-6">
+          <input id="namaibu" name="namaibu" placeholder="Nama Ibu" class="form-control input-md" required="" type="text">
+        </div>
+      </div>
+
+      <!-- Tanggal Lahir Ibu -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="tempatlahir">Tempat, Tanggal Lahir</label>
+        <div class="col-md-6">
+          <input id="tempatlahir" name="tempatlahir" placeholder="Tempat, Tanggal Lahir" class="form-control input-md" required="" type="text">
+        </div>
+      </div>
+
+      <!--Nomor NIK-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="nomornik">Nomor NIK</label>
+        <div class="col-md-6">
+          <input id="nomornik" name="nomornik" placeholder="Nomor NIK" class="form-control input-md" required="" type="text">
+        </div>
+      </div>
+
+      <!--Agama-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="agama">Agama</label>
+        <div class="col-md-2">
+          <select id="agama" name="agama" class="form-control">
+            <option value="0">-- Pilih Agama --</option>
+            <option value="1">Islam</option>
+            <option value="2">Katolik</option>
+            <option value="3">Protestan</option>
+            <option value="4">Buddha</option>
+            <option value="5">Hindu</option>
+          </select>
+        </div>
+      </div>
+
+      <!--Pendidikan Terakhir-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="pendidikan">Pendidikan Terakhir</label>
+        <div class="col-md-6">
+          <input id="pendidikan" name="pendidikan" placeholder="Pendidikan Terakhir" class="form-control input-md" required="" type="text">
+        </div>
+      </div>
+
+      <!--Pekerjaan-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="pekerjaan">Pekerjaan</label>
+        <div class="col-md-6">
+          <input id="pekerjaan" name="pekerjaan" placeholder="Pekerjaan" class="form-control input-md" required="" type="text">
+        </div>
+      </div>
+
+      <!--Jumlah Penghasilan-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="penghasilan">Jumlah Penghasilan</label>
+        <div class="col-md-2">
+          <select id="Penghasilan" name="Penghasilan" class="form-control">
+            <option value="0">-- Pilihan --</option>
+            <option value="1">Dibawah Rp1 juta</option>
+            <option value="2">Rp1 juta - Rp2 juta</option>
+            <option value="3">Rp2 juta - Rp5 juta</option>
+            <option value="4">Diatas Rp5 juta</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Alamat Ibu -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="alamat">Alamat</label>
+        <div class="col-md-6">
+          <input id="alamat2" name="alamat2" placeholder="" class="form-control input-md" type="text">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="prependedtext"></label>
+        <div class="col-md-2">
+          <div class="input-group">
+            <span class="input-group-addon">RT</span>
+            <input id="prependedtext" name="prependedtext" class="form-control" placeholder="00" type="text">
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="input-group">
+            <span class="input-group-addon">RW</span>
+            <input id="prependedtext" name="prependedtext" class="form-control" placeholder="00" type="text">
+          </div>
+        </div>
+      </div>
+
+      <!-- Kelurahan -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for=""></label>
+        <div class="col-md-6">
+          Kelurahan
+          <input id="" name="" placeholder="" class="form-control input-md" type="text">
+        </div>
+      </div>
+
+      <!-- Kecamatan -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for=""></label>
+        <div class="col-md-6">
+          Kecamatan
+          <input id="" name="" placeholder="" class="form-control input-md" type="text">
+        </div>
+      </div>
+
+      <!-- Kabupaten -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for=""></label>
+        <div class="col-md-6">
+          Kabupaten/Kota
+          <input id="" name="" placeholder="" class="form-control input-md" type="text">
+        </div>
+      </div>
+
+      <!-- Provinsi -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for=""></label>
+        <div class="col-md-2">
+          Provinsi
+          <input id="" name="" placeholder="" class="form-control input-md" type="text">
+        </div>
+        <div class="col-md-2">
+          Kode Pos
+          <input id="" name="" placeholder="" class="form-control input-md" type="text">
+        </div>
+      </div>
+      <!-- Batas Biodata IBU ------------------------>
+
+      <!-- Button Submit -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="submit"></label>
+        <div class="col-md-4">
+          <a href="form-regist-a.html" target="iframe-form-regist">
+            <button class="btn btn-primary" type="button">Sebelumnya</button>
+          </a>
+          <a href="form-regist-c.html" target="iframe-form-regist">
+            <button class="btn btn-primary" type="button">Selanjutnya</button>
+          </a>
+        </div>
+      </div>
+
+
+    </fieldset>
+  </form>
+
+
+
+  <!--Formulir Pendaftaran-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</body>
+
+</html>

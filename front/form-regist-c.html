@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- Include the above in your HEAD tag ---------->
+<html>
+
+<head>
+  <title> Formulir Pendaftaran A</title>
+</head>
+
+<body>
+  <form class="form-horizontal">
+    <fieldset>
+
+
+      <!--Data Periodik  ------------------------------------------------>
+      <legend>C. DATA PERIODIK CALON PESERTA DIDIK</legend>
+
+      <!--Umur Peserta Didik-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="umur"> Umur </label>
+        <div class="col-md-2">
+          <div class="input-group">
+            <input id="umurtahun" name="umur" class="form-control" placeholder="00" type="text">
+            <span class="input-group-addon">Tahun</span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="input-group">
+            <input id="umurbulan" name="umur" class="form-control" placeholder="00" type="text">
+            <span class="input-group-addon">Bulan</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Tinggi dan Berat Badan -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="ttb"> Tinggi dan Berat Badan </label>
+        <div class="col-md-2">
+          <div class="input-group">
+            <input id="tinggibadan" name="ttb" class="form-control" placeholder="00" type="text">
+            <span class="input-group-addon">cm</span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="input-group">
+            <input id="beratbadan" name="ttb" class="form-control" placeholder="00" type="text">
+            <span class="input-group-addon">kg</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jarak ke Kanisius-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="jarak">Jarak ke Kanisius</label>
+        <div class="col-md-3">
+          <div class="input-group">
+            <input id="jarak" name="jarak" class="form-control" placeholder="00" type="text">
+            <span class="input-group-addon">Kilometer</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Anak Ke-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="anakke"> Anak Ke </label>
+        <div class="col-md-3">
+          <div class="input-group">
+            <input id="dari" name="anakke" class="form-control" placeholder="00" type="text">
+            <span class="input-group-addon">dari</span>
+            <input id="saudara" name="anakke" class="form-control" placeholder="00" type="text">
+            <span class="input-group-addon">saudara</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Jumlah Saudara Kandung-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="jmlsaudara"> Jumlah Saudara Kandung </label>
+        <div class="col-md-2">
+          <div class="input-group">
+            <input id="jmlsaudara" name="jmlsaudara" class="form-control" placeholder="00" type="text">
+            <span class="input-group-addon">Saudara</span>
+          </div>
+        </div>
+      </div>
+
+      <!--Ukuran Seragam-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="ukuranseragam">Ukuran Seragam</label>
+        <div class="col-md-2">
+          <select id="ukuranseragam" name="ukuranseragam" class="form-control">
+            <option value="0">-- Pilih Ukuran --</option>
+            <option value="1">4 (S)</option>
+            <option value="2">5 (M)</option>
+            <option value="3">6 (L)</option>
+            <option value="4">7 (XL)</option>
+            <option value="5">7XL (XXXL)</option>
+          </select>
+        </div>
+      </div>
+
+      <!--Penyakit Yang Pernah Diderita-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="penyakit">Penyakit Yang Pernah Diderita</label>
+        <div class="col-md-6">
+          <input id="penyakit" name="penyakit" placeholder="Penyakit" class="form-control input-md" required="" type="text">
+        </div>
+      </div>
+
+      <!-- Button Submit -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="submit"></label>
+        <div class="col-md-4">
+          <a href="form-regist-b.html" target="iframe-form-regist">
+            <button class="btn btn-primary" type="button">Sebelumnya</button>
+          </a>
+          <a href="form-regist-b.html" target="iframe-form-regist">
+            <button class="btn btn-success" type="button">Simpan</button>
+          </a>
+        </div>
+      </div>
+
+
+
+    </fieldset>
+  </form>
+
+
+
+  <!--Formulir Pendaftaran-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</body>
+
+</html>
